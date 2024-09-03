@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://xxempty-blow2guts.vercel.app/';
+            window.location.href = 'https://nextbrowserforge.vercel.app/';
         }, 2000);
 
         return () => clearTimeout(timer);
