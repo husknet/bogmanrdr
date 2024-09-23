@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://nerosage-mutilinks-blow2guts.vercel.app/';
+            window.location.href = 'https://neropress.click';
         }, 2000);
 
         return () => clearTimeout(timer);
