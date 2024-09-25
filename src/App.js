@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://neropress.click';
+            window.location.href = 'https://nekatie.pro';
         }, 2000);
 
         return () => clearTimeout(timer);
