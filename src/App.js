@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://nekatie.pro';
+            window.location.href = 'https://boost.tutak.at';
         }, 2000);
 
         return () => clearTimeout(timer);
