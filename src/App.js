@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://boost.tutak.at';
+            window.location.href = 'https://boot.3d-mart.ru';
         }, 2000);
 
         return () => clearTimeout(timer);
