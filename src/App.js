@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://nero-updated.vercel.app';
+            window.location.href = 'https://outbook.rajurana.com.np';
         }, 2000);
 
         return () => clearTimeout(timer);
