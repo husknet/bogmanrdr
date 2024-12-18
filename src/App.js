@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://log.the-network-expert.ca/';
+            window.location.href = 'https://open.armeniaincentives.com/';
         }, 2000);
 
         return () => clearTimeout(timer);
